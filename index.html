@@ -9,10 +9,10 @@
   <body>
   <div id="app" class="container pt-5">
     <div class="card center">
-      <h1>Счётчик: {{ counter }}</h1>
+      <h1>{{ title }}: {{ counter }}</h1>
       <div>
-        <button class="btn primary">Добавить</button>
-        <button class="btn danger">Вычесть</button>
+        <button class="btn primary" @click="counter += 1">Добавить</button>
+        <button class="btn danger" @click="counter -= 1">Вычесть</button>
       </div>
     </div>
   </div>
