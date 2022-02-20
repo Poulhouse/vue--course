@@ -4,7 +4,13 @@ const App = {
         //возвращаемый объект
         return {
             placeholderString: 'Введите название заметки',
-            title: 'Список заметок'
+            title: 'Список заметок',
+            inputValue: ''
+        }
+    },
+    methods: {
+        inputChangeHandler(event) {
+            this.inputValue = event.target.value
         }
     }
 }
