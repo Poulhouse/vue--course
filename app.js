@@ -3,6 +3,7 @@ const App = {
     data() {
         //возвращаемый объект
         return {
+            placeholderString: 'Введите название заметки',
             title: 'Список заметок'
         }
     }
