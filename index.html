@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="theme.css" />
   </head>
   <body>
-  <div id="app" class="container pt-5">
-    <div class="card center">
-      <h1>{{ title }}: {{ counter }}</h1>
-      <div>
-        <button class="btn primary" @click="counter += 1">Добавить</button>
-        <button class="btn danger" @click="counter -= 1">Вычесть</button>
-      </div>
+  <div id="app" class="container">
+    <div class="card">
+        <h1>{{ title }}</h1>
+        <div class="form-control">
+            <input type="text" placeholder="Введите название заметки"/>
+        </div>
+        <button class="btn">Добавить</button>
+        <hr />
     </div>
   </div>
   <script src="https://unpkg.com/vue@3"></script>
