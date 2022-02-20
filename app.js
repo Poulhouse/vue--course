@@ -3,8 +3,7 @@ const App = {
     data() {
         //возвращаемый объект
         return {
-            counter: 0,
-            title: 'Счётчик'
+            title: 'Список заметок'
         }
     }
 }
