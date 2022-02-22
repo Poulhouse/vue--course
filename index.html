@@ -16,6 +16,7 @@
                 v-bind:placeholder="placeholderString"
                 v-bind:value="inputValue"
                 @input="inputChangeHandler"
+                @keypress.enter="addNewNote"
             />
         </div>
         <button class="btn" @click="addNewNote">Добавить</button>
