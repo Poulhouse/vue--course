@@ -24,6 +24,12 @@ const App = {
         deleteNote(index) {
             this.notes.splice(index, 1)
         }
+    },
+    computed: {
+        dblCountComputed() {
+            console.log('dblCountComputed')
+            return this.notes.length * 2
+        }
     }
 }
 // первый спопоб
