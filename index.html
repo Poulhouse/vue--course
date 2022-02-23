@@ -13,8 +13,8 @@
         <div class="form-control">
             <input
                 type="text"
-                v-bind:placeholder="placeholderString"
-                v-bind:value="inputValue"
+                :placeholder="placeholderString"
+                :value="inputValue"
                 @input="inputChangeHandler"
                 @keypress.enter="addNewNote"
             />
